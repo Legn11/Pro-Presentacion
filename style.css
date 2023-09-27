@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+footer{
+    display: flex;
+    position:relative;
+    padding: 0px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+}
+header{
+    background-color: aqua;
+    padding: 2rem;
+}
+/* TITLES */
+.titleBasic{
+    font-size: 25px;
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.titleName{
+    font-size: 35px;
+    padding: 1rem;
+    color: rgb(49, 190, 148);
+}
+/* FIRST SECTION */
+.cajaQuienSoy{
+    display: flex;
+    width: 100vw;
+    height: auto;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: auto;
+}
+.presentacion{
+    width: 400px;
+    height: auto;
+    font-size: 18px;
+    text-align: justify;
+    padding: 1rem;
+}
+/* SECOND SECTION */
+.secondSection{
+    display: flex;
+    align-content:flex-end;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(212, 199, 199);
+}
+/* .secondBanner{
+    color: antiquewhite;
+
+} */
+.skills{
+    width: 200px;
+    height: auto;
+    font-size: 18px;
+    text-align: justify;
+    padding: 1rem;
+}
+
+
