@@ -82,7 +82,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(39, 39, 39);
 }
 .skillsBox{
     display: flex;
@@ -102,6 +102,10 @@ html {
     font-size: 20px;
     text-align: justify;
     font-weight: 900;
+}
+.fa-solid{
+  font-size: 50px;
+  color:rgb(49, 190, 148);
 }
 /* THIR SECTION */
 .titleDev{
@@ -184,7 +188,7 @@ html {
 /* QUINTA SECCION */
 .fiveTitleBox{
     display: flex;
-    background-color: #111;
+    background-color: rgb(39, 39, 39);
     justify-content: center;
     color: aliceblue;
 }
@@ -195,7 +199,7 @@ html {
   align-items: center;
   justify-content: center;
   padding: 3rem;
-  background-color: #111;
+  background-color: rgb(39, 39, 39);
 }
 .experiencia{
     width: 5rem;
@@ -212,13 +216,12 @@ html {
   margin: 0 auto;
   position: relative;
 }
-
 .timeline ul {
   list-style: none;
 }
 .timeline ul li {
   padding: 20px;
-  background-color: #1e1f22;
+  background-color: #363636;
   color: white;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -249,6 +252,9 @@ html {
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
+
+/* MEDIA QUERY */
+
 @media only screen and (min-width: 768px) {
   .timeline:before {
     content: "";
