@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  font-family: "Montserrat";
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
 }
 /* BANNER */
 .banner{
@@ -19,12 +20,10 @@ html {
 }
 .mainTitle{
     font-size: 90px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: beige;
 }
 .seconTitle{
     font-size: 30px;
-    font-family:'Courier New', Courier, monospace;
     color:rgb(49, 190, 148);
 }
 /* FIRST SECTION */
@@ -46,6 +45,7 @@ html {
     font-size: 20px;
     text-align: justify;
     padding: 1rem;
+  
 }
 .photobox{
     display: flex;
@@ -65,12 +65,6 @@ html {
 .titleName{
     font-size: 35px;
     color: rgb(49, 190, 148);
-    font-family:"Roboto Slab";
-}
-.titleEge{
-    font-size: 25px;
-    text-align: center;
-    padding: 1rem;
 }
 /* SECON SECTION */
 .mainBoxTwo{
@@ -101,7 +95,6 @@ html {
     height: 8rem;
     font-size: 20px;
     text-align: justify;
-    font-weight: 900;
 }
 .fa-solid{
   font-size: 50px;
@@ -111,7 +104,6 @@ html {
 .titleDev{
     font-size: 35px;
     padding: 2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .skillsDev{
     display: flex;
@@ -137,7 +129,7 @@ html {
 .fourBox{
     display: flex;
     flex-direction: column;
-    background-image: url("https://wc.wallpaperuse.com/wallp/65-653254_s.jpg");
+    background-image: url("https://i.pinimg.com/originals/c5/e2/dc/c5e2dc63db1c67c0ec5f695dbbcd9096.png");
     background-repeat: no-repeat;
     background-size:cover;
     color: beige;
@@ -190,7 +182,7 @@ html {
     display: flex;
     background-color: rgb(39, 39, 39);
     justify-content: center;
-    color: aliceblue;
+    color: beige;
 }
 .container {
   min-height: 100vh;
@@ -204,7 +196,7 @@ html {
 .experiencia{
     width: 5rem;
     height: 3rem;
-    color: aliceblue;
+    color: beige;
     font-size: 20px;
     text-align: center;
     z-index: 1;
@@ -222,7 +214,7 @@ html {
 .timeline ul li {
   padding: 20px;
   background-color: #363636;
-  color: white;
+  color: beige;
   border-radius: 10px;
   margin-bottom: 20px;
 }
