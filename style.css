@@ -10,7 +10,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 html{
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 /* BANNER */
 .banner{
@@ -18,7 +18,7 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #18191E;
+    background-color: rgb(39, 39, 39);
     width: 100%;
     height: 40rem;
 }
@@ -34,7 +34,7 @@ html{
 .mainBox{
     display: flex;
     width: 100%;
-    height: 37rem;
+    height: 35rem;
 }
 .firstBox{
     display: flex;
@@ -45,7 +45,7 @@ html{
     gap: 2rem;
 }
 .textPresentation{
-    width: 30rem;
+    width: 35rem;
     height: auto;
     font-size: 20px;
     text-align: justify;
@@ -57,52 +57,63 @@ html{
     align-items: center;
     height: 100%;
 }
-.imgPresentacion{
+.img-presentacion{
     width: 300px;
     height: 300px;
-    border-radius: 40%;
-    
-}
-/* titles first section */
-.titleName{
-    font-size: 35px;
-    color: rgb(49, 190, 148);
+    border-radius: 50%;
 }
 /* SECON SECTION */
 .mainBoxTwo{
-    display: flex;
     width: 100%;
-    height: 30rem;
+    height: 25rem;
+    background-color: rgb(39, 39, 39);
 }
 .seconBox{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(39, 39, 39);
+    height: 100%;
+    width: 100%;
 }
 .skillsBox{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-flow: column wrap;
     width: 33.33%;
+    height: 20rem;
     color: beige;
+    gap: 1rem;
 }
 .skillsTitle{
     font-size: 25px;
     text-align: center;
-    margin: 1rem;
 }
 .skillsText{
-    width: 70%;
+    width: 20rem;
     height: 5rem;
     font-size: 15px;
     text-align: justify;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+
+    width: 8rem;
+    height: 4rem;
 }
 .fa-solid{
   font-size: 50px;
   color:rgb(49, 190, 148);
 }
 .skillLink{
+    text-decoration: none;
+    color: beige;;
+}
+.fa-regular{
+    color: antiquewhite;
+}
+.read-more{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,40 +123,46 @@ html{
     text-decoration: none;
     color: beige;;
 }
-.fa-regular{
-    color: antiquewhite;
-}
-.prueba{
-    display: flex;
-    align-items: center;
-}
 /* THIR SECTION */
 .titleDev{
     font-size: 35px;
-    padding: 2rem;
 }
 .skillsDev{
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 .devBox{
     display: flex;
     align-items: center;
-    box-shadow: 7px 3px 3px rgb(161, 190, 182);
-    margin: 1rem;
-    height: 3rem;
+    box-shadow: 3px 3px 8px rgb(199, 211, 207);
+    border-radius: 10px;
+    height: 4rem;
+    width: 13rem;
 }
 .devBox:hover{
-    background-color: rgba(174, 214, 209, 0.363);
+   color: rgb(10, 173, 154);
 }
 /* FOUR SECCTION */
-.mainBoxFour{
+.main-box-four{
     display: flex;
     width: 100%;
-    height: 30rem;
+    height: 25rem;
 
 }
-.fourBox{
+.four-title-box{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .fourTitle{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.four-box{
     display: flex;
     flex-direction: column;
     background-image: url("https://i.pinimg.com/originals/c5/e2/dc/c5e2dc63db1c67c0ec5f695dbbcd9096.png");
@@ -153,18 +170,12 @@ html{
     background-size:cover;
     color: beige;
     width: 100%;
+    gap: 1rem;
 }
-.fourTitleBox{
+.four-container{
     display: flex;
     width: 100%;
-    height: 10rem;
-}
-.fourSkillsBox{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    width: 100%;
+    height: 15rem;
 }
 .fourSkills{
     width: 100%;
@@ -179,19 +190,27 @@ html{
     font-size: 50px;
     padding: 1rem;
 }
-.rightSkillsBox{
-    display: flex;
-    width: 100%;
-    height: 15rem;
-}
-.fourInsideBox{
+.four-inside-box{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+
+}
+.img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.img-skills{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
 }
 .inside{
     display: flex;
+    gap: 2rem;
     align-items: center;
     flex-flow: column wrap;
     width: 20%;
@@ -218,7 +237,7 @@ html{
     color: beige;
     font-size: 20px;
     text-align: center;
-    z-index: 1;
+    z-index: -1;
 }
 .timeline {
   width: 80%;
@@ -231,6 +250,7 @@ html{
   list-style: none;
 }
 .timeline ul li {
+  font-size: 50px;
   padding: 20px;
   background-color: #363636;
   color: beige;
@@ -262,17 +282,4 @@ html{
   font-weight: 300;
   margin-bottom: 10px;
   letter-spacing: 2px;
-}
-/* PORTAFOLIO */
-.portfolioBox{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-}
-.portfolioCard{
-    width: 20rem;
-    background-color: aqua;
-    height: 30rem;
-
 }
