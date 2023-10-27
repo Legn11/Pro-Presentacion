@@ -12,7 +12,8 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  /* gap: 15rem; */
 
   width: 100%;
   margin: 0 auto;
@@ -30,14 +31,13 @@
   display: flex;
   margin-right: 40px;
   list-style: none;
-  gap: 2px;
 }
 .nav-menu-item {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 3.5rem;
-  width: 7rem;
+  width: 8rem;
   border-radius: 5px;
 }
 .nav-menu-link {
@@ -227,6 +227,7 @@ font-size: 40px;
   align-items: center;
   height: 2rem;
   font-size: 22px;
+  padding: 1rem;
 }
 .four-container{
   height: 10rem;
@@ -246,7 +247,7 @@ font-size: 40px;
 
 }
 /* TIME LINE */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1080px) {
   .timeline-content h3 {
     font-weight: 500;
     font-size: 20px;
